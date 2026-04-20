@@ -1,5 +1,6 @@
 1. Dvouhodinovka: Vymýšlení příběhu + základni grafika
 2. Dvouhodinovka: dodělání grafiky + start menu hotovo.
+
 Příběh: 🗺️ SCÉNA 1 – Tábor
 Start
 Najdeš:
