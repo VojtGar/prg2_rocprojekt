@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\\u0161kola\\prg\\roc_projekt_2prg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{226EA20C-2FBC-BCE9-F579-A4C25E20A94A}|roc_projekt_2prg\\roc_projekt_2prg.csproj|c:\\users\\pc\\desktop\\\u0161kola\\prg\\roc_projekt_2prg\\roc_projekt_2prg\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{226EA20C-2FBC-BCE9-F579-A4C25E20A94A}|roc_projekt_2prg\\roc_projekt_2prg.csproj|solutionrelative:roc_projekt_2prg\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226EA20C-2FBC-BCE9-F579-A4C25E20A94A}|roc_projekt_2prg\\roc_projekt_2prg.csproj|c:\\users\\pc\\desktop\\\u0161kola\\prg\\roc_projekt_2prg\\roc_projekt_2prg\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226EA20C-2FBC-BCE9-F579-A4C25E20A94A}|roc_projekt_2prg\\roc_projekt_2prg.csproj|solutionrelative:roc_projekt_2prg\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226EA20C-2FBC-BCE9-F579-A4C25E20A94A}|roc_projekt_2prg\\roc_projekt_2prg.csproj|c:\\users\\pc\\desktop\\\u0161kola\\prg\\roc_projekt_2prg\\roc_projekt_2prg\\roc_projekt_2prg.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{226EA20C-2FBC-BCE9-F579-A4C25E20A94A}|roc_projekt_2prg\\roc_projekt_2prg.csproj|solutionrelative:roc_projekt_2prg\\roc_projekt_2prg.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "roc_projekt_2prg.csproj",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\\u0161kola\\prg\\roc_projekt_2prg\\roc_projekt_2prg\\roc_projekt_2prg.csproj",
+              "RelativeDocumentMoniker": "roc_projekt_2prg\\roc_projekt_2prg.csproj",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\\u0161kola\\prg\\roc_projekt_2prg\\roc_projekt_2prg\\roc_projekt_2prg.csproj",
+              "RelativeToolTip": "roc_projekt_2prg\\roc_projekt_2prg.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-15T23:44:35.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\\u0161kola\\prg\\roc_projekt_2prg\\roc_projekt_2prg\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "roc_projekt_2prg\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\\u0161kola\\prg\\roc_projekt_2prg\\roc_projekt_2prg\\MainWindow.xaml",
+              "RelativeToolTip": "roc_projekt_2prg\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-15T23:37:10.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\\u0161kola\\prg\\roc_projekt_2prg\\roc_projekt_2prg\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "roc_projekt_2prg\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\\u0161kola\\prg\\roc_projekt_2prg\\roc_projekt_2prg\\MainWindow.xaml.cs",
+              "RelativeToolTip": "roc_projekt_2prg\\MainWindow.xaml.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAADwv+0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T23:37:06.601Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
