@@ -4,7 +4,7 @@ namespace roc_projekt_2prg
 {
     public partial class MainWindow : Window
     {
-        // Herní předměty a stavy
+        
         private bool maKlic = false;
         private bool maLoucNezapalena = false;
         private bool maLoucZapalena = false;
@@ -20,11 +20,6 @@ namespace roc_projekt_2prg
             InitializeComponent();
         }
 
-        // =======================================================
-        // INTERAKCE: TÁBOR
-        // =======================================================
-
-        // Kliknutí na truhlu v táboře
         private void BtnTruhla_Click(object sender, RoutedEventArgs e)
         {
             if (maLoucNezapalena || maLoucZapalena)
@@ -42,7 +37,6 @@ namespace roc_projekt_2prg
             }
         }
 
-        // Kliknutí na oheň v táboře
         private void BtnOhen_Click(object sender, RoutedEventArgs e)
         {
             if (maLoucZapalena)
@@ -52,7 +46,7 @@ namespace roc_projekt_2prg
             else if (maLoucNezapalena)
             {
                 maLoucZapalena = true;
-                maLoucNezapalena = false; // Louč se změnila na zapálenou
+                maLoucNezapalena = false; 
                 TxtTaborVypis.Text = "Vložil jsi louč do plamenů. Smola okamžitě chytla a louč teď jasně září! Teď už se v podzemí neztratíš.";
             }
             else
@@ -61,11 +55,7 @@ namespace roc_projekt_2prg
             }
         }
 
-        // =======================================================
-        // INTERAKCE: LES
-        // =======================================================
-
-        // Kliknutí na strom (hledání klíče)
+        
         private void BtnStrom_Click(object sender, RoutedEventArgs e)
         {
             if (maKlic || maLoucNezapalena || maLoucZapalena)
@@ -79,7 +69,6 @@ namespace roc_projekt_2prg
             }
         }
 
-        // Kliknutí na keř (hledání runy ME)
         private void BtnKer_Click(object sender, RoutedEventArgs e)
         {
             if (maRunaME)
@@ -93,11 +82,6 @@ namespace roc_projekt_2prg
             }
         }
 
-        // =======================================================
-        // INTERAKCE: JESKYNĚ
-        // =======================================================
-
-        // Kliknutí ve tmě jeskyně (hledání runy ON)
         private void BtnJeskyneTma_Click(object sender, RoutedEventArgs e)
         {
             if (maRunaON)
@@ -111,11 +95,6 @@ namespace roc_projekt_2prg
             }
         }
 
-        // =======================================================
-        // INTERAKCE: JEZERO / ŘEKA
-        // =======================================================
-
-        // Kliknutí na větev na zemi
         private void BtnVetev_Click(object sender, RoutedEventArgs e)
         {
             if (maVetev || maRunaLL)
@@ -129,7 +108,6 @@ namespace roc_projekt_2prg
             }
         }
 
-        // Kliknutí na třpyt ve vodě (hledání runy LL)
         private void BtnRekaTrpyt_Click(object sender, RoutedEventArgs e)
         {
             if (maRunaLL)
@@ -147,12 +125,9 @@ namespace roc_projekt_2prg
             }
         }
 
-        // =======================================================
-        // INTERAKCE: BRÁNA MORIE
-        // =======================================================
+
         private void BtnMoriaDvere_Click(object sender, RoutedEventArgs e)
         {
-            // Kontrola, zda má hráč posbírané všechny 3 části runy (ME + LL + ON)
             if (maRunaME && maRunaLL && maRunaON)
             {
                 TxtMoriaVypis.Text = "Složil jsi všechny tři úlomky k sobě a přečetl celé heslo: 'ME - LL - ON'. Brána se s obrovským duněním otevírá! Úspěšně jsi dokončil hru!";
@@ -163,9 +138,6 @@ namespace roc_projekt_2prg
             }
         }
 
-        // =======================================================
-        // NAVIGACE MEZI SCÉNAMI
-        // =======================================================
         private void BtnStart_Click(object sender, RoutedEventArgs e)
         {
             ScenaUvod.Visibility = Visibility.Collapsed;
@@ -186,7 +158,6 @@ namespace roc_projekt_2prg
 
         private void NavTaborDoJeskyne_Click(object sender, RoutedEventArgs e)
         {
-            // Restrikce: Vstup povolen pouze SE zapálenou loučí!
             if (maLoucZapalena == false)
             {
                 TxtTaborVypis.Text = "Do jeskyně nemůžeš vstoupit! Je tam naprostá černočerná tma a bez zapálené louče by ses zřítil do propasti.";
